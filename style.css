@@ -358,4 +358,7 @@ code, pre {
         width: 250px;
         margin: auto;
     }
+    footer .grid {
+        grid-template-columns: 1fr;
+    }
 }
