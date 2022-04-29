@@ -348,3 +348,14 @@ code, pre {
         background-color: rgba(0,0,0,0.1);
     }
 }
+
+@media (max-width: 450px) {
+    .showcase .grid {
+        grid-template-columns: 1fr;
+    }
+    .showcase-form,
+    .showcase-text {
+        width: 250px;
+        margin: auto;
+    }
+}
